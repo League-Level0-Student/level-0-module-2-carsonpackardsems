@@ -1,11 +1,12 @@
 //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
-
+//complete
 package _02_rock_paper_scissors;
 
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Random;
 
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
@@ -16,7 +17,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class RockPaperScissors extends JPanel implements ActionListener{
-  
+	Random ran = new Random();
+	int num = ran.nextInt(3);
 	private JFrame window = new JFrame("Rock Paper Scissors");
 	private JButton rockButton = new JButton();
 	private JButton paperButton = new JButton();
@@ -80,10 +82,10 @@ public class RockPaperScissors extends JPanel implements ActionListener{
 	//   Don't forget to create a Random object.
 	    
         //2. Change the value of opponentSelection to be a random number between 0 and 2; 
-        int opponentSelection = 0;
+        int opponentSelection = num;
         
         //3. Run the program again. Is the result different?
- 
+ //yes
         int selection = 0;
        
         if(e.getSource() == paperButton){
