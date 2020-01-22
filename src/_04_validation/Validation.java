@@ -9,10 +9,10 @@ import javax.swing.JOptionPane;
 
 public class Validation {
 	public static void main(String[] args) {
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < 20; i++) {
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(6);
 		
 		System.out.println(randomNumber);
 
@@ -21,11 +21,11 @@ public class Validation {
 		} else if (randomNumber == 2) {
 			JOptionPane.showMessageDialog(null, "You are a good person to be around.");
 		} else if (randomNumber == 3) {
-			JOptionPane.showMessageDialog(null, "You are ");
+			JOptionPane.showMessageDialog(null, "You are a stud.");
 		} else if (randomNumber == 4) {
-			JOptionPane.showMessageDialog(null, "You are a fun person.");
+			JOptionPane.showMessageDialog(null, "You are a bubbly person.");
 		} else if (randomNumber == 5) {
-			JOptionPane.showMessageDialog(null, "You are a fun person.");
+			JOptionPane.showMessageDialog(null, "You are a quokka.");
 
 		// 2. Repeat all the code above 10 times
 		
