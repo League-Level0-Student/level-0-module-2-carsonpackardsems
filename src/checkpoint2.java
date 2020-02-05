@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-
+//complete
 public class checkpoint2 {
 public static void main(String[] args) {
 String Q2 = "";
@@ -28,7 +28,3 @@ JOptionPane.showMessageDialog(null, "You're goind to need more cookies.");
 }
 }
 }
-
-
-
-	
